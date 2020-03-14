@@ -19,7 +19,7 @@ const HeadMetaData = (
 
 export default function Layout({children, pageTitle}) {
   const { pages } = useContext(DataContext);
-
+  // workaround when pages is initially set to undefined 
   if (!pages || !pageTitle) {
     return (
       <>

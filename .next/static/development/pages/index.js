@@ -197,7 +197,8 @@ function Layout(_ref) {
       pageTitle = _ref.pageTitle;
 
   var _useContext = Object(react__WEBPACK_IMPORTED_MODULE_0__["useContext"])(_DataContext__WEBPACK_IMPORTED_MODULE_3__["default"]),
-      pages = _useContext.pages;
+      pages = _useContext.pages; // workaround when pages is initially set to undefined 
+
 
   if (!pages || !pageTitle) {
     return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, HeadMetaData, __jsx("div", {
