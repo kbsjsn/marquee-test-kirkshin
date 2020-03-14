@@ -1,0 +1,123 @@
+html {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background: url(/slide-one.jpg) no-repeat center center fixed;
+  background-size: cover;
+  color: #ffffff;
+  font-size: 14px; }
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0; }
+
+a {
+  text-decoration: none; }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .header a:visited {
+    color: #ffffff; }
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.86;
+  letter-spacing: normal; }
+  .menu a:nth-child(even) {
+    color: #ffc004; }
+
+.logo {
+  margin: 1rem 0; }
+
+.contact-us {
+  width: 10rem;
+  height: 3rem;
+  text-align: center;
+  padding: 0.75rem 0;
+  border: solid 1px #ffffff; }
+  .contact-us:hover {
+    transition: background-color 0.5s;
+    color: #000000;
+    background-color: #fafafc; }
+  .contact-us:hover:visited {
+    transition: background-color 0.5s;
+    color: #000000;
+    background-color: #fafafc; }
+
+.marquee {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards; }
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.headline-sub {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+  margin: 1rem 0; }
+
+.headline {
+  max-width: 612px;
+  font-size: calc(28px + (76 - 28) * ((100vw - 300px) / (1600 - 300)));
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: -2.2px; }
+
+.subhead {
+  width: 360px;
+  font-size: 1rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.86;
+  letter-spacing: normal;
+  margin-left: 1.5rem; }
+
+.cta-container {
+  height: 12.8rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #000000;
+  background-color: #ffffff; }
+  .cta-container .cta-content {
+    padding-left: 1rem; }
+  .cta-container a {
+    padding-left: 1rem; }
+  .cta-container a:visited {
+    color: #000000; }
+  .cta-container span {
+    color: #ffc001; }
+
+.lets-talk {
+  width: 19rem;
+  text-transform: uppercase; }
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  min-height: 100vh;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 10%; }
+
+
+/*# sourceMappingURL=styles.chunk.css.map*/

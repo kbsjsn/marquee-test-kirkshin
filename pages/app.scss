@@ -1,0 +1,16 @@
+html {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background: url(/slide-one.jpg) no-repeat center center fixed;
+  background-size: cover;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
